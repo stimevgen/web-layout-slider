@@ -1,0 +1,94 @@
+body {
+    background: #ffffff;
+
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.slider #slk {
+    display: flex;
+}
+
+.slider {
+
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+}
+
+.slider .content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.slider #items {
+    position: relative;
+    width: 33600px;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider .item {
+    position: relative;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slider #back {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -30px;
+    margin-top: 60px;
+    border: none;
+    color: #7300e9;
+}
+
+.slider #forvard {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 565px;
+    margin-top: 60px;
+    border: none;
+    color: #7300e9;
+}
+
+.slider h3 {
+    border-radius: 30px;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+    padding: 2%;
+    position: relative;
+    background: #f1dcff;
+    color: #7300e9;
+}
+
+.slider .pagination {
+    margin-top: 0;
+    display: table;
+    margin-left: 190px;
+    user-select: none;
+}
+
+.slider .pagination li {
+    vertical-align: top;
+    color: #7300e9;
+    font-size: 30px;
+    cursor: pointer;
+    display: table-cell;
+    text-align: center;
+}
+
+.stop{
+    pointer-events: none;
+}

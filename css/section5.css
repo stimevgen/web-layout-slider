@@ -1,0 +1,69 @@
+.section5 div{
+    padding: 0;
+}
+.section5{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+
+.section5 h3{
+    color: #000000;
+    font-family: Outfit,sans-serif;
+    font-size: 86px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 106%;
+    font-feature-settings: 'liga' off;
+    margin-bottom: 20px;
+}
+
+.section5 h4 {
+    color: #000000;
+    font-family: Outfit,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 106%;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.section5 span{
+    max-width: 537px;
+    color: #000000;
+    font-family: Outfit,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+}
+
+.section5 .business{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #CFCFCF;
+    padding: 40px 0;
+}
+
+.section5 .block-section5 {
+    display: flex;
+    width: 1320px;
+    justify-content: center;
+    margin: 100px auto 0px;
+    align-self: center;
+}
+
+.box picture{
+    display: flex;
+    align-items: center;
+}
+.section5 .box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,48 @@
+.section1{
+    position: relative;
+    padding: 130px 0 0 110px;
+    background-color: #181818;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 821px;
+}
+
+.section1 p {
+    font-size: 96px;
+    line-height: 106%;
+    text-decoration: dotted;
+}
+
+.section1 h4 {
+    max-width: 534px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.section1 .block{
+    position: relative;
+    display: flex;
+    max-width: 671px;
+    z-index: 10;
+}
+
+.first img {
+    width:605px;
+    height:753px;
+}
+
+.section1 .img-box {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+
+.section1 .last {
+    position: absolute;
+    z-index: 0;
+    left: 54.1%;
+    bottom: -34px;
+    width: 2000px;
+    height: 760px;
+}

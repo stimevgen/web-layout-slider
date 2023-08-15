@@ -1,0 +1,223 @@
+@font-face {
+    font-display:swap;
+    font-family:Outfit;
+    font-style:normal;
+    font-weight:900;
+    src: url("../fonts/Outfit-Bold.woff2") format("woff2");
+    src: url("../fonts/Outfit-Light.woff2") format("woff2");
+    src: url("../fonts/Outfit-Medium.woff2") format("woff2");
+    src: url("../fonts/Outfit-Regular.woff2") format("woff2");
+    src: url("../fonts/Outfit-SemiBold.woff2") format("woff2");
+
+}
+* {
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    vertical-align: baseline;
+    color: #fff;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content:space-between;
+}
+
+.head {
+    width: 100%;
+    height: 71px;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.org {
+    color: #FFFFFF;
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 17px;
+    text-transform: lowercase;
+}
+
+.logo {
+    opacity: 1;
+    width: 51px;
+    height: 51px;
+}
+
+body {
+    font-feature-settings: "pnum" on, "lnum" on;
+    font-family: 'Outfit', serif;
+    background: #fff;
+    color: #171923;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    line-height: 24px;
+    width: 100%;
+    border: 0;
+}
+
+header {
+    width: 100%;
+    height: 71px;
+    background-color: #181818;
+}
+
+.header-focus {
+    width: 100%;
+    height: 71px;
+    background-color: rgb(24, 24, 24);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: 100;
+}
+
+section {
+    position: relative;
+    background-color: #181818;
+    margin: 0 auto;
+}
+
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 60px 20px 60px;
+}
+
+.menu {
+    width: 100%;
+    height: 38px;
+    background-color: #FFAA4C;
+}
+
+.nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 60px;
+}
+
+.nav div {
+    padding: 9px 40px;
+    border-radius: 20px 20px 0 0;
+    background-color: #181818;
+}
+.nav span {
+    color: #FFFFFF;
+    font-family: Outfit,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+}
+.content {
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #181818;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+    background-color: #181818;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid transparent;
+    display: inline;
+    border-radius: 16px;
+    padding: 14px 28px;
+    color: #FFFFFF;
+    background-color: #954CED;
+    justify-content: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+    transition: background-color 1s ease-out 1ms;
+}
+
+button:hover {
+    background-color: #181818;
+}
+
+button:active {
+    background-color: #954CED;
+}
+
+.link {
+    color: #FFFFFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #444444;
+    margin-bottom: 20px;
+}
+
+.corp {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+img {
+    display: block;
+}
+
+.cookie {
+    position: fixed;
+    max-width: 1285px;
+    bottom: 30px;
+    width: 100%;
+    padding: 30px 60px 30px 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(141, 141, 141, 0.1) -10px -5px 30px;
+    border-radius: 16px; left: 50%;
+    transform: translate(-50%, 0px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   z-index: 1000;
+}
+.cookie h2 {
+    color: black;
+    max-width: 783px;
+    margin-right: 150px;
+    font-weight: 300;
+}
