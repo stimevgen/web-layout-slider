@@ -67,7 +67,7 @@ function enableButton() {
 }
 
 const moveItem = (transform) => {
-    document.getElementById('items').style.cssText = "transform:translate3d(" + transform + "px, 0px, 0px)";
+    document.getElementById('items').style.left = transform+'px';
     Array.prototype.forEach.call(document.getElementsByClassName("check"), function (el) {
         if (el.id == transform) {
             el.innerHTML = "&#8226";
